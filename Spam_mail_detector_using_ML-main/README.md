@@ -1,20 +1,40 @@
-# Spam Email Detection using scikit-learn
+📧 Spam Email Detection using scikit-learn
 
-## Introduction
+🧾 Introduction
 
-This project is a spam email detection system built using machine learning algorithms from scikit-learn. Spam emails can be a significant problem, and having an automated system to detect and filter them out can be invaluable.
+This project is a simple yet effective spam email detection system using machine learning techniques from **scikit-learn**. Spam emails pose major issues in communication and productivity, and this model helps in automatically identifying and filtering them.
 
-The model in this project is designed to detect various types of spam emails, making it versatile and useful for different email platforms and applications.
+It can detect various forms of spam messages, making it suitable for integration into email clients or other communication tools.
 
-## Features
+✅ Features
 
-- Utilizes machine learning techniques from scikit-learn.
-- Accurate detection spam emails.
+- Trained ML model using scikit-learn
+- Vectorizer for transforming raw text data
+- Accurate spam classification
+- Easy to run from the command line
 
-## Requirements
+📦 Requirements
 
-To run this project, you'll need the following:
+To run this project, you need:
 
 - Python 3.x
-- scikit-learn library
- 
+- scikit-learn
+- pandas
+- pickle
+
+Install dependencies using:
+
+```bash
+pip install scikit-learn pandas
+
+🚀 How to Run
+1)Clone the repository:
+git clone https://github.com/yasasree07/Spam_mail_detector.git
+cd Spam_mail_detector
+2)Run the script:
+python spam.py
+3)Enter the email content when prompted. The model will return whether it's SPAM or NOT SPAM.
+
+💬 Example
+Enter email content: "You won a free iPhone. Claim now!"
+Prediction: SPAM
